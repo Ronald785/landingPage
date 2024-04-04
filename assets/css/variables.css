@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #0a1128;
+    --secondary-color: rgb(20, 83, 220);
+    --white-color: #fff;
+    --light-gray-color: #eeeeee;
+    --gap: 3rem;
+    --gap-top: 6.5rem;
+}

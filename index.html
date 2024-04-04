@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="shortcut icon" href="/assets/img/page.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/elements.css">
+    <link rel="stylesheet" href="/assets/css/classes.css">
+    <link rel="stylesheet" href="/assets/css/menu.css">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+
+<body>
+    <input type="checkbox" name="closeMenu" id="closeMenu" class="menu-close">
+    <label for="closeMenu" class="menu-close-label" title="Close Menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="document.getElementById('closeMenu').checked = false;">
+                <a href="#home">Landing Page</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li onclick="document.getElementById('closeMenu').checked = false;"><a href="#home">home</a></li>
+                    <li onclick="document.getElementById('closeMenu').checked = false;"><a href="#internet">internet</a>
+                    </li>
+                    <li onclick="document.getElementById('closeMenu').checked = false;"><a href="#code">Código</a></li>
+                    <li onclick="document.getElementById('closeMenu').checked = false;"><a href="#gallery">Galeria</a>
+                    </li>
+                    <li onclick="document.getElementById('closeMenu').checked = false;"><a href="#table">Tabela</a>
+                    </li>
+                    <li onclick="document.getElementById('closeMenu').checked = false;"><a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <section id="home" class="main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>História da Origem do comptador</h2>
+                <p>
+                    O computador tem origens que remontam à Antiguidade, com dispositivos como a ábaco e a máquina de
+                    Anticítera. No
+                    entanto, o conceito moderno de computador começou a surgir no século XIX, com as contribuições de
+                    Charles Babbage e Ada
+                    Lovelace para a máquina analítica. O desenvolvimento acelerou-se no século XX com o advento dos
+                    computadores
+                    eletrônicos, culminando no ENIAC em 1946, considerado o primeiro computador digital de grande
+                    escala.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="/assets/img/intro.svg" alt="Logo de HTML, CSS e JS." loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section id="internet" class="white-bg section">
+        <div class="main-content top-content">
+            <h2>Internet
+            </h2>
+            <p>
+                O lançamento recente dos Macs baseados em Apple Silicon atraiu significativa atenção da mídia e
+                surpreendeu muitos com
+                seu desempenho. Este artigo fornece insights sobre o processo de adaptação do Firefox para operar
+                nativamente nesses
+                CPUs.
+            </p>
+            <p>
+                Começando com uma visão geral da transição do Mac, vamos aprofundar nos principais detalhes internos do
+                Firefox que
+                precisaram ser ajustados para a nova arquitetura. Também exploraremos o conceito de Binários Universais.
+            </p>
+            <p>
+                Além disso, discutiremos as complexidades da implementação de DRM/EME na nova plataforma,
+                compartilharemos nossas
+                experiências com o macOS Big Sur e destacaremos os desafios encontrados com várias questões de
+                atualização. Por fim,
+                abordaremos o lançamento e delinearemos melhorias futuras.
+            </p>
+        </div>
+    </section>
+
+    <section id="code" class="main-bg section">
+        <div class="main-content grid-content">
+            <div class="grid-title">
+                <h2>Código
+                </h2>
+                <p>Uma breve descrição da história do html, css e js.
+                </p>
+            </div>
+
+            <div class="grid-article">
+                <article>
+                    <h3>HTML</h3>
+                    <p>O HTML (HyperText Markup Language) é a linguagem padrão para a criação de páginas web. Ele define
+                        a estrutura
+                        e o conteúdo de uma página, usando elementos como tags e atributos.</p>
+                </article>
+
+                <article>
+                    <h3>CSS</h3>
+                    <p>O CSS (Cascading Style Sheets) é usado para estilizar a aparência das páginas web. Ele permite
+                        controlar o
+                        layout, as cores, as fontes e outros aspectos visuais de um site.</p>
+                </article>
+
+                <article>
+                    <h3>JavaScript</h3>
+                    <p>O JavaScript é uma linguagem de programação que permite adicionar interatividade e dinamismo às
+                        páginas web.
+                        Ele pode ser usado para validar formulários, criar animações, efeitos visuais e muito mais.</p>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery" class="white-bg section">
+        <div class="main-content grid-content">
+            <div class="grid-title">
+                <h2>Galeria</h2>
+                <p>Uma breve descrição</p>
+            </div>
+
+            <div class="grid-images">
+                <div class="grid-image">
+                    <img src="http://source.unsplash.com/random/360x360?x=1" alt="random image from unsplash"
+                        loading="lazy">
+                </div>
+                <div class="grid-image">
+                    <img src="http://source.unsplash.com/random/360x360?x=2" alt="random image from unsplash"
+                        loading="lazy">
+                </div>
+                <div class="grid-image">
+                    <img src="http://source.unsplash.com/random/360x360?x=3" alt="random image from unsplash"
+                        loading="lazy">
+                </div>
+                <div class="grid-image">
+                    <img src="http://source.unsplash.com/random/360x360?x=4" alt="random image from unsplash"
+                        loading="lazy">
+                </div>
+                <div class="grid-image">
+                    <img src="http://source.unsplash.com/random/360x360?x=5" alt="random image from unsplash"
+                        loading="lazy">
+                </div>
+                <div class="grid-image">
+                    <img src="http://source.unsplash.com/random/360x360?x=6" alt="random image from unsplash"
+                        loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="table" class="main-bg section">
+        <div class="main-content top-content">
+            <h2>Tabela</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor urna vitae lorem varius, nec
+                pharetra
+                velit congue. Vestibulum auctor turpis et augue molestie, vitae tincidunt nunc vehicula. In hac
+                habitasse
+                platea dictumst.</p>
+            <p>Donec at leo vitae velit eleifend lobortis. Phasellus accumsan enim sed elit lobortis, at feugiat nisi
+                tincidunt. Fusce auctor, felis nec feugiat posuere, velit mauris consectetur mi, eget molestie ipsum sem
+                eget libero.</p>
+
+            <div class="table-responsive">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Plan</th>
+                            <th>Features</th>
+                            <th>Price</th>
+                            <th>Validity</th>
+                            <th>Buy Now</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Basic</td>
+                            <td>Lorem ipsum dolor sit amet</td>
+                            <td>$9.99</td>
+                            <td>1 month</td>
+                            <td>Buy Now</td>
+                        </tr>
+                        <tr>
+                            <td>Standard</td>
+                            <td>Consectetur adipiscing elit</td>
+                            <td>$19.99</td>
+                            <td>3 months</td>
+                            <td>Buy Now</td>
+                        </tr>
+                        <tr>
+                            <td>Premium</td>
+                            <td>Proin tempor urna vitae lorem</td>
+                            <td>$29.99</td>
+                            <td>6 months</td>
+                            <td>Buy Now</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th>Total:</th>
+                            <th>$59.97</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="white-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Tabela</h2>
+                <p>
+                    O site funciona como uma página de destino para um repositório no GitHub:
+                    https://github.com/ronald785.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="/assets/img/form.svg" alt="Logo de HTML, CSS e JS." loading="lazy">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-flex">
+                    <legend>Contate-me</legend>
+                    <div class="form-group">
+                        <label for="firstName">Nome</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Sobrenome</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Seu Sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="button">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer main-bg">
+        <a href="https://github.com/ronald785" rel="nofollow" target="_blank">
+            <p>Feito com <span class="heart">❤</span> por Ronald Almeida</p>
+        </a>
+    </footer>
+
+
+    <div class="to-top">
+        <a href="#home">➤</a>
+    </div>
+</body>
+
+</html>
